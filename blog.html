@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloG-Page</title>
+
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/editor.css">
+    <link rel="stylesheet" href="css/home.css">
+
+</head>
+
+<body>
+
+    <header class="navigation  max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/index.html"><img src="logo/cover1.png" width="200px" alt=""></a>
+
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/editor.html">Editor</a></li>
+                <!-- <li><a href="/blog.html">Blogs</a></li> -->
+            </ul>
+        </div>
+        <div class="nav-right">
+            <!-- <input type="text" class="navi-control" placeholder=" Articles Search">
+            <button class="btn">Search</button> -->
+            <a href="/editor.html" class="btn">write a blog</a>
+        </div>
+    </header>
+
+    <div class="banner max-width-1 m-auto"> </div>
+
+    <div class="blog">
+        <h1 class="title"></h1>
+        <p class="published"><span>published at - </span></p>
+        <div class="article">
+
+        </div>
+    </div>
+    <h1 class="sub-heading ">Read more</h1>
+    
+    <!-- blog section -->
+    <section class="blogs-section max-width-1 m-auto">
+        <!-- <div class="blog-card">
+            <img src="img/header.png" class="blog-image" alt="">
+            <h1 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h1>
+            <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt fugiat quos porro repellat harum. Adipisci tempora corporis rem cum.</p>
+            <a href="/" class="btn dark">read</a>
+        </div>  -->
+    </section>
+    
+    
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/blog.js"></script>
+
+</body>
+
+</html>

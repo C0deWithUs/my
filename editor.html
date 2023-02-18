@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog site</title>
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/editor.css">
+
+</head>
+<body>
+
+    <header class="navigation  max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/index.html"><img src="logo/cover1.png" width="200px" alt=""></a>
+
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/editor.html">Editor</a></li>
+                <!-- <li><a href="/blog.html">Blogs</a></li> -->
+            </ul>
+        </div>
+        <div class="nav-right">
+            <!-- <input type="text" class="navi-control" placeholder=" Articles Search">
+            <button class="btn">Search</button> -->
+            <a href="/editor.html" class="btn">write a blog</a>
+        </div>
+    </header>
+    
+    <div class="banner max-width-1 m-auto">
+        <input type="file" accept="image/*" id="banner-upload" hidden>
+        <label for="banner-upload" class="banner-upload-btn"><img src="img/upload2.jpg" alt="upload banner"></label>
+    </div>
+
+    <div class="blog max-width-1 m-auto">
+        <textarea type="text" class="title" placeholder="Blog title..."></textarea>
+        <textarea type="text" class="article" placeholder="Start writing here..."></textarea>
+    </div>
+
+    <div class="blog-options">
+        <button class="btn dark publish-btn">publish</button>
+        <input type="file" accept="image/*" id="image-upload" hidden>
+        <label for="image-upload" class="btn grey upload-btn">Upload Image</label>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/editor.js"></script>
+
+</body>
+</html>

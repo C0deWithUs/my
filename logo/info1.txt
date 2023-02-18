@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: amita-regular
+font link: https://fonts.google.com/specimen/Amita
+font author: Eduardo Tunni
+font author site: http://www.tipo.net.ar/
+
+
+icon designer: Creative Stall
+icon designer link: /creativestall
+        
+{"bg":"#FBF3EF","icon-gradient-0":"#A92580","icon-gradient-1":"#F7BC00","font":"#2F190E","slogan":"#432d22"}
+      
